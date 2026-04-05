@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+header{
+    background-color: rgba(0, 0, 255, 0.724);
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+margin: 0 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.s1{
+    background-image: url(https://images.unsplash.com/photo-1563461660947-507ef49e9c47?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHRlYW18ZW58MHx8MHx8fDA%3D);
+padding-top: 130px;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+.s1 h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: chartreuse;
+}
+.s1 p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: chartreuse;
+}
+.switch{
+    background-color: rgb(244, 244, 10);
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.courses{
+    padding: 50px 20px;
+    text-align: center;
+    
+}
+
+
+.course_container{
+    display: flex;
+    margin:0px 320px;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+.coures_box{
+    background-color: white;
+    width: 280px;
+    padding: 20px;
+    border: 2px solid color(srgb red green blue);
+    border-radius: 20px;
+}
+
+.coures_box img{
+    width: 250px;
+    height: 180px;
+}
+.course_box h3{
+    margin-top: 15px;
+
+}
+
+.Features{
+    background-color: rgb(187, 194, 206);
+    padding: 30px 20px;
+    text-align: center;
+    height: 400px;
+    
+   
+}
+.features-container
+{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    gap: 20px;
+   
+}
+.features-box{
+    background-color: darksalmon;
+    padding: 25px 30px 30px;
+    height: 250px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 20px;
+
+}
+.features-box p{
+    padding: 40px;
+    font-size: 20px;
+}
+.features-box h4{
+    font-size: 25px;
+}
+
+
+.contact{
+   padding: 50px 20px;
+   text-align: center;
+background-color: rgb(169, 145, 145);
+}
+ form{
+     background-color: wheat; 
+    max-width: 450px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+ .contact input{
+    width: 300px;
+
+}
+.contact select{
+    width: 300px;
+}
+.contact textarea{
+    width: 280px;
+} 
